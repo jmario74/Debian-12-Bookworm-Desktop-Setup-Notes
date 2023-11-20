@@ -1,0 +1,685 @@
+November 2023, READ & UNDERSTAND COMPLETELY BEFORE USE
+
+LAPTOP: LENOVO IDEAPAD 3 15IML05
+CPU: Pentium Gold 6405U
+OS: DEBIAN 12 BOOKWORM
+
+PRESS "F2" AGAIN & GAIN AS SOON AS MACHINE STARTS TO BOOT TO ENTER BIOS
+
+~~~~DEBIAN 12 BOOKWORM LINKS (CREATE A BOOTABLE USB DRIVE WITH THE ISO, CAN INSTALL WITHOUT INTERNET)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/
+https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.2.0-amd64-DVD-1.iso
+
+~~~~USEFUL LINKS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+https://fosspost.org/better-gaming-performance-linux/
+https://store.steampowered.com/steamos
+https://wiki.debian.org/CpuFrequencyScaling
+https://steamcommunity.com/sharedfiles/filedetails/?id=1787799592
+https://specifications.freedesktop.org/desktop-entry-spec/latest/ar01s06.html
+https://stackoverflow.com/questions/53738373/how-do-i-run-a-bash-script-before-shutdown-or-reboot-of-a-raspberry-pi-running
+https://unix.stackexchange.com/questions/39226/how-to-run-a-script-with-systemd-right-before-shutdown/41756#41756
+https://askubuntu.com/questions/1021971/execute-script-when-closing-terminal
+https://superuser.com/questions/544399/how-do-you-make-a-systemd-service-as-the-last-service-on-boot
+https://stackoverflow.com/questions/39024657/run-bash-script-after-login
+https://unix.stackexchange.com/questions/78762/closing-all-nautilus-windows-from-terminal
+https://unix.stackexchange.com/questions/545583/how-to-make-debian-10-boot-faster
+https://askubuntu.com/questions/1021971/execute-script-when-closing-terminal
+https://devicetests.com/change-permissions-fat32-flash-drive
+https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/
+https://askubuntu.com/questions/863734/how-to-execute-a-script-when-application-is-terminated
+https://geekpeek.net/resize-filesystem-fdisk-resize2fs/
+https://willem.com/blog/2020-10-30_how-to-use-rsync-to-make-backups/
+https://tldp.org/HOWTO/Partition/fdisk_partitioning.html
+https://clonezilla.org/
+https://askubuntu.com/questions/1451560/ubuntu-20-04-how-can-i-stop-waiting-for-networkmanager-service-during-startup
+https://superuser.com/questions/544399/how-do-you-make-a-systemd-service-as-the-last-service-on-boot
+https://askubuntu.com/questions/676007/how-do-i-make-my-systemd-service-run-via-specific-user-and-start-on-boot/859583#859583
+https://askubuntu.com/questions/1094389/what-is-the-use-of-systemd-journal-flush-service
+https://community.clearlinux.org/t/arch-linux-outperforms-clear-linux/5462/4
+https://community.clearlinux.org/t/how-i-got-virt-manager-and-qemu-kvm-working/1261
+https://community.clearlinux.org/t/install-virtualbox-vmware/1009/12
+https://github.com/marioroy/clearmod
+https://openwebcraft.com/notes/clearlinux-desktop-setup/
+https://web.archive.org/web/20230329233222/https://unix.stackexchange.com/questions/406137/why-does-top-show-a-different-number-of-cores-than-cpuinfo
+https://web.archive.org/web/20231013042805/https://wiki.debian.org/BootProcessSpeedup#Using_a_faster_system_shell
+https://wiki.debian.org/UEFI#Booting_a_UEFI_machine_normally
+https://openbenchmarking.org/
+https://askubuntu.com/questions/594443/how-can-i-remove-compiled-kernel
+https://www.reddit.com/r/linux/comments/1027mpp/what_are_your_boottime_benchmarks/?rdt=61887
+https://wiki.archlinux.org/title/silent_boot
+https://forum.garudalinux.org/t/changing-enabling-the-os-logo-in-the-mobo-boot-screen/27893/2
+https://aventistech.com/kb/create-xfs-file-system-on-debian-10/
+https://www.xmodulo.com/create-mount-xfs-file-system-linux.html
+https://www.cyberciti.biz/faq/how-to-install-xfs-and-create-xfs-file-system-on-debianubuntu-linux/
+https://videos.cdn.redhat.com/summit2015/presentations/17856_getting-the-most-out-of-your-nvme-ssd.pdf
+https://opensource.com/article/20/6/linux-noatime
+https://www.billdietrich.me/LinuxTroubleshooting.html#Performance
+https://www.reddit.com/r/linux4noobs/comments/lmf8ju/whats_the_best_filesystem_to_use_for_an_nvme_ssd/
+https://haydenjames.io/linux-performance-almost-always-add-swap-space/
+https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-debian-11
+https://forums.debian.net/viewtopic.php?t=152954
+https://www.reddit.com/r/archlinux/comments/jxrhmb/systemdboot_vs_efistub/?rdt=33093
+https://wiki.archlinux.org/title/Improving_performance/Boot_process
+https://www.linkedin.com/pulse/how-make-your-archlinux-faster-sourav-goswami
+https://askubuntu.com/questions/878041/16-04-is-it-possible-to-speed-up-kernel-boot-time
+https://cj.rs/blog/should-i-compress-my-initramfs/
+https://unix.stackexchange.com/questions/529111/execute-a-script-before-login-screen
+https://askubuntu.com/questions/25071/how-to-run-a-script-when-a-specific-flash-drive-is-mounted
+https://askubuntu.com/questions/1422123/desktop-automatic-login-as-root-on-ubuntu-22-04-1-lts
+https://stackoverflow.com/questions/11700690/how-do-i-set-a-blank-password-for-the-root-user-in-slitaz
+https://unix.stackexchange.com/questions/88301/kernel-module-blacklist-not-working
+https://web.archive.org/web/20210817192926/https://superuser.com/questions/1639373/how-to-unmask-a-systemd-service-unit-on-a-remote-machine
+https://web.archive.org/web/20231025013223/https://askubuntu.com/questions/1038923/do-i-really-need-apt-daily-service-and-apt-daily-upgrade-service
+https://web.archive.org/web/20231007034614/https://tecadmin.net/swapfile-vs-swap-partition/
+https://www.reddit.com/r/linuxquestions/comments/knf7qy/do_i_need_etcfstab_if_im_using_root_kernel/?rdt=46987
+https://man7.org/linux/man-pages/man7/bootparam.7.html
+https://askubuntu.com/questions/878041/16-04-is-it-possible-to-speed-up-kernel-boot-time
+https://unix.stackexchange.com/questions/745499/how-to-enable-dark-theme-for-qt-applications
+https://packages.debian.org/sid/qgnomeplatform-qt5
+https://web.archive.org/web/20230419040854/https://bbs.archlinux.org/viewtopic.php?id=266967
+
+~~~~BIOS SETTING~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Boot Mode	[Legacy Support]
+Boot Priority	[UEFI First]
+Intel Platform Trust Technology   [Disabled]
+System Performance Mode   [Extreme Performance]
+OS Optimized Defaults	[Enabled]
+
+~~~~STORAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+internal M.2 SSD PCIE NVME as operating system only
+internal SSD DRIVE as additional storage
+
+~~~~DESKTOP INSTALL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+UPGRADE LAPTOP MEMORY TO MAX CAPACITY FOR BETTER PERFORMANCE
+UPGRADE INSTALL SSD NVME PCIE FOR OPERATING SYSTEM ONLY
+UPGRADE MAIN DRIVE TO SSD FOR EXTRA STORAGE
+
+during install selections: advanced options, expert install, targeted drivers, no host name, no wep key, no network mirror, WEP/Open Network, root login, no automatic updates, just gnome, force grub to efi
+
+~~~~DESKTOP AFTER INSTALL (TERMINAL COMMANDS EXCEPT FOR "Note:" & INSIDE "######EDIT######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: if root name needs change
+hostnamectl set-hostname debian
+
+Note: disable touchpad on mouse connect, may need reboot
+gsettings set org.gnome.desktop.peripherals.touchpad send-events disabled-on-external-mouse
+
+Note: setup login as root
+
+Note: set all gtk apps to dark theme in settings appearance
+
+Note: textadept 11.4 (unzip into "/opt" folder), "https://github.com/orbitalquark/textadept/releases/download/textadept_11.4/textadept_11.4.linux.tgz"
+
+Note: create desktop shortcut launcher for textadept
+nano /root/.local/share/applications/Textadept
+######EDIT###############################################################################################################################
+[Desktop Entry]
+Type=Application
+Name=Textadept
+GenericName=Text Editor
+Comment=A fast, minimalist, and remarkably extensible text editor for programmers
+# Icon is here: core/images/textadept.svg
+Icon=/opt/textadept/core/images/textadept.svg
+Exec=/opt/textadept/textadept %F
+Terminal=false
+MimeType=application/javascript;application/json;application/postscript;application/x-csh;application/x-desktop;application/x-httpd-eruby;application/x-httpd-php;application/x-httpd-php3;application/x-httpd-php4;application/x-httpd-php5;application/x-latex;application/x-msdos-program;application/x-ruby;application/x-sh;application/x-shellscript;application/x-sql;application/x-tcl;application/x-tex;application/xhtml+xml;application/xml;application/xml-dtd;application/xslt+xml;text/css;text/csv;text/html;text/plain;text/xml;text/xml-dtd;text/x-asm;text/x-bibtex;text/x-boo;text/x-c++;text/x-c++hdr;text/x-c++src;text/x-c;text/x-chdr;text/x-csh;text/x-csrc;text/x-dsrc;text/x-diff;text/x-eiffel;text/x-fortran;text/x-go;text/x-haskell;text/x-java;text/x-java-source;text/x-lua;text/x-makefile;text/x-markdown;text/x-objc;text/x-pascal;text/x-perl;text/x-php;text/x-python;text/x-ruby;text/x-scala;text/x-scheme;text/x-sh;text/x-tcl;text/x-tex;text/x-vala;text/yaml;
+Categories=Development;Utility;TextEditor;GTK;
+StartupNotify=false
+StartupWMClass=textadept
+######END EDIT###########################################################################################################################
+
+Note: firefox developer edition (unzip into "/opt" folder), "https://dev.to/harrsh2124/how-to-setup-firefox-developer-edition-on-ubuntu-4inp"
+
+Note: if this removes deps that firefox dev needs, see what deps were removed by "autoremove" and reinstall
+apt -y remove firefox-esr
+apt -y autoremove
+apt -y autoclean && apt -y clean
+
+Note: gnome extension website install "unite", "dash to panel", "smart auto move", burn my windows" (needs upower.service)
+
+Note: gnome extension "dash to panel" issue "activities" button disappears (unite->settings->general->hide activities button->never)
+Note: gnome extension "smart auto move" issue "match threshold" setting needs to be set to "0.01" or window positions is based on window title
+
+Note: no startup in overview (extensions->dash to panel->settings->behaviour->overview->disable show overview on startup)
+
+Note: set gtk dpi scale
+nano /root/.bashrc
+######EDIT##############################################################################
+# ~/.bashrc: executed by bash(1) for non-login shells.
+
+# Note: PS1 and umask are already set in /etc/profile. You should not
+# need this unless you want different defaults for root.
+# PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
+# umask 022
+
+# You may uncomment the following lines if you want `ls' to be colorized:
+# export LS_OPTIONS='--color=auto'
+# eval "$(dircolors)"
+# alias ls='ls $LS_OPTIONS'
+# alias ll='ls $LS_OPTIONS -l'
+# alias l='ls $LS_OPTIONS -lA'
+#
+# Some more alias to avoid making mistakes:
+# alias rm='rm -i'
+# alias cp='cp -i'
+# alias mv='mv -i'
+
+# textadept font size 15; firefox zoom 110%; gedit font size 16, terminal font size 12
+export GDK_DPI_SCALE=1.15
+######END EDIT##########################################################################
+
+Note: display and set button order of apps
+gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+
+Note: debian dark mode for gtk apps (tweaks->appearance->legacy applications->adwaita-dark)
+
+Note: steamline desktop
+
+Note: edit sources list to be able to update when debian has been installed with no internet (https://wiki.debian.org/sourceslist)
+nano /etc/apt/sources.list
+######EDIT#################################################################################################################
+#deb cdrom:[Debian GNU/Linux 12.2.0 _Bookworm_ - Official amd64 DVD Binary-1 with firmware 20231007-10:29]/ bookworm main non-free-firmware
+
+deb http://deb.debian.org/debian bookworm main
+deb-src http://deb.debian.org/debian bookworm main
+
+deb http://deb.debian.org/debian-security/ bookworm-security main
+deb-src http://deb.debian.org/debian-security/ bookworm-security main
+
+deb http://deb.debian.org/debian bookworm-updates main
+deb-src http://deb.debian.org/debian bookworm-updates main
+######END EDIT#############################################################################################################
+
+apt -y update && apt -y upgrade
+
+apt -y install nemo
+
+Note: scroll overlay problem with nemo (https://github.com/linuxmint/nemo/issues/2234)
+gsettings set org.gnome.desktop.interface overlay-scrolling false
+
+apt -y remove nautilus && \
+apt -y autoremove && apt -y autoclean && apt -y clean
+
+Note: better sound system than default (https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/2244)
+apt -y install pulseaudio
+
+Note: if timezone was set wrong during install
+timedatectl list-timezones
+timedatectl set-timezone America/Los_Angeles
+
+Note: center all apps when opening (NOT RECOMMENDED)
+gsettings set org.gnome.mutter center-new-windows true
+
+Note: no edge snap (NOT RECOMMENDED)
+gsettings set org.gnome.mutter edge-tiling false
+
+Note: do not auto maximize when apps are edged out on sizing (NOT RECOMMENDED)
+gsettings set org.gnome.mutter auto-maximize false
+
+Note: install xanmod kernel
+
+Note: copy to clipboard
+apt -y install xsel
+
+Note: virtualbox (apt -y install ./installer.deb)
+
+Note: dbeaver-ce (apt -y install ./installer.deb)
+
+Note: to create bootable usb in debian
+apt -y install usb-creator-gtk
+
+Note: anti-virus
+apt -y install clamav
+
+Note: gui for clamAV anti-virus
+apt -y install clamtk
+
+Note: BleachBit "https://www.bleachbit.org/download/linux" (apt -y install ./installer.deb)
+
+Note: system optimizer and application monitor "https://oguzhaninan.github.io/Stacer-Web/"
+add-apt-repository ppa:oguzhaninan/stacer
+apt update
+apt -y install stacer
+
+~~~~DESKTOP LOGIN AS ROOT (TERMINAL COMMANDS EXCEPT FOR "Note:" & INSIDE "######EDIT######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+su
+nano /etc/gdm3/daemon.conf
+######ADD TO .CONF#######
+[security]
+AllowRoot=true
+######ADD TO .CONF END###
+
+nano /etc/pam.d/gdm-password
+######COMMENT LINE IN GDM-PASSWORD##########################
+auth required pam_succeed_if.so user != root quiet_success
+######COMMENT LINE IN GDM-PASSWORD END######################
+
+~~~~HIDE NON-ROOT USER IN LOGIN SCREEN (TERMINAL COMMANDS EXCEPT FOR "Note:" & INSIDE "######EDIT######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: create this file
+cp /var/lib/AccountsService/users/root /var/lib/AccountsService/users/non-root-user-name
+nano /var/lib/AccountsService/users/non-root-user-name
+######EDIT############
+[User]
+Session=
+Icon=/root/.face
+#SystemAccount=false
+SystemAccount=true
+######END EDIT########
+
+~~~~STREAMLINE DESKTOP (TERMINAL COMMANDS)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+apt -y remove logrotate && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-games && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove --purge libreoffice*  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove cheese  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove simple-scan  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove evolution  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove rhythmbox  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove shotwell  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove transmission-gtk  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove im-config  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove totem && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-music  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-maps  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-weather  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-contacts  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-calendar  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-clocks  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-sound-recorder  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-software && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove gnome-user-docs  && \
+apt -y autoremove && apt -y  autoclean && apt -y clean && \
+apt -y remove yelp && \
+apt -y autoremove && apt -y  autoclean && apt -y clean
+
+~~~~BUILD OPTIMIZED XANMOD SPECIFIC TO MACHINE (TERMINAL COMMANDS EXCEPT FOR "Note:")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: https://web.archive.org/web/20230329061721/https://notes.ponderworthy.com/compile-and-optimize-the-xanmod-linux-kernel-for-debian-and-derivatives
+Note: https://web.archive.org/web/20230329040820/https://ayrn.io/how-to-build-a-custom-xanmod-kernel-on-ubuntu-18-04/
+Note: https://www.cyberciti.biz/faq/debian-redhat-linux-delete-kernel-command/
+
+apt -y update
+apt -y install git build-essential bison flex pkg-config qtcreator qtbase5-dev qttools5-dev-tools libssl-dev
+
+apt -y build-dep linux-image-amd64
+
+mkdir custom-kernel-xanmod
+cd custom-kernel-xanmod
+git clone https://github.com/xanmod/linux.git xanmod
+cd xanmod
+make clean
+make xconfig
+
+Note: After xconfig has been made, it will bring up a GUI. The GUI has a search capability, you’ll want to search (ctrl+f) for the following: "HZ_1000" is a setting which is highest of five, expressed as “1000 HZ”. It is timer interrupts per second. For non-desktop systems, 500 is often recommended. For anything desktop or multimedia, use 1000. "MNATIVE_INTEL" is a setting which is bottom-most of a long list of specific CPU models. Unlike the others, this setting tells the compiler to optimize its output for the specific CPU in the very machine which this procedure is being run on. Using this will invariably get you a very, very fast kernel for this machine. Don’t try to use this kernel on a different machine, unless you know for certain that the different machine has exactly the same CPU. I have found the two above to produce really great performance. The third one I use, "CC_OPTIMIZE_FOR_SIZE", is a non-default setting whose opposite is "CC_OPTIMIZE_FOR_PERFORMANCE", and they mean what they say. In Debian, I optimize for size in 8 or less gigabytes of RAM, and for performance in more, they have been handling an amazing number of Chrome tabs (a nice practical test) in just 4G RAM. That is an amazing disparity, but as of this writing (March of 2020) this is what I have been finding. "HZ_1000"; "MNATIVE_INTEL"; "CC_OPTIMIZE_FOR_SIZE"; "File/Save" then "File/Quit"; or "ctrl+s" then "ctrl+q".
+
+Note: get thread count for "-j", threads multiplied by cores
+lscpu | grep -w "Model name:\|^CPU(s):\|Thread(s) per core:"
+
+Note: Compile the kernel. Notice the 3 in "-j3", you’ll want to replace this with the calculated number. This sets up the compilation to use all of your CPU cores at maximum efficiency, and speeds up the process according to what you have.
+
+make -j3 deb-pkg LOCALVERSION=-xanmod-500-native
+
+Note: Unless it failed for some reason, the .deb packages are one level above in directories. Go there and install.
+cd ..
+dpkg -i linux-image*.deb linux-headers*.deb
+
+Note: You can then boot and use Tab before the kernel loads to choose the new kernel.
+
+Note: check kernel in use
+cat /proc/version
+
+Note: check kernel in use
+uname -r
+
+Note: clean up after successful build and deployment
+apt -y remove git build-essential bison flex pkg-config qtcreator qtbase5-dev qttools5-dev-tools libssl-dev && \
+apt -y autoremove && apt -y autoclean && apt -y clean
+
+Note: SAFE TO MASK!
+systemctl disable packagekit && \
+systemctl mask packagekit
+
+Note: on "Error: GDBus.Error:org.freedesktop.systemd1.UnitMasked: Unit packagekit.service is masked."
+systemctl unmask packagekit.service
+systemctl start packagekit.service
+
+Note: to remove kernel
+uname -r
+
+rm -f /boot/vmlinuz*KERNEL-VERSION*
+rm -f /boot/initrd*KERNEL-VERSION*
+rm -f /boot/System-map*KERNEL-VERSION*
+rm -f /boot/config-*KERNEL-VERSION*
+rm -f /lib/modules/*KERNEL-VERSION*/
+update-grub
+
+dpkg --list | grep linux-image
+apt -y --purge remove <linux-image>
+
+~~~~EFISTUB BOOT LOADING (TERMINAL COMMANDS EXCEPT FOR "Note:")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: https://wiki.debian.org/EFIStub
+Note: https://web.archive.org/web/20231030230816/https://beta.reddit.com/r/debian/comments/17gsw7j/efistub_works_perfectly_on_debian_12_even_the/
+
+mkdir -p /boot/efi/EFI/stub && \
+cp /boot/vmlinuz-6.5.8-x64v1-xanmod-500-native-xanmod1 /boot/efi/EFI/stub && \
+cp /boot/initrd.img-6.5.8-x64v1-xanmod-500-native-xanmod1 /boot/efi/EFI/stub/initrd.img
+
+Note: check partition information or use gnome disks to check partition information
+blkid
+
+Note: https://web.archive.org/web/20231030230702/https://forums.stub.net/viewtopic.php?f=17&t=137851&hilit=Bolo, look for "by Head_on_a_Stick"
+
+Note: without bootup splash, "rw fstab=n" bypass use of "/etc/fstab" & "systemd-remount-fs.service"
+efibootmgr -c -d <EFI partition (TYPE="vfat")> -p 1 -L 'Debian (EFI_STUB)' -l '/EFI/stub/vmlinuz-6.5.8-x64v1-xanmod-500-native-xanmod1' -u 'root=UUID=<root file system uuid (TYPE="ext4")> rw fstab=n fsck.mode=skip quiet loglevel=0 systemd.show_status=false rd.udev.log_level=0 i915.fastboot=1 fbcon=nodefer rd.plymouth=0 plymouth.enable=0 nowatchdog mitigations=off bgrt_disable=0 rootfstype=ext4 rootflags=noatime add_efi_memmap initrd=/EFI/stub/initrd.img'
+
+Note: with bootup splash, "ro" use "/etc/fstab" & "systemd-remount-fs.service"
+efibootmgr -c -d <EFI partition (TYPE="vfat")> -p 1 -L 'Debian (EFI_STUB)' -l '/EFI/stub/vmlinuz-6.5.8-x64v1-xanmod-500-native-xanmod1' -u 'root=UUID=<root file system uuid (TYPE="ext4")> ro fsck.mode=skip quiet splash loglevel=0 systemd.show_status=false rd.udev.log_level=0 i915.fastboot=1 fbcon=nodefer nowatchdog mitigations=off bgrt_disable=0 rootfstype=ext4 add_efi_memmap initrd=/EFI/stub/initrd.img'
+
+efibootmgr
+
+Note: to remove entry, example "Boot0003* Debian (EFI_STUB)", the "3" in "Boot0003*" is used
+efibootmgr -b 3 -B
+
+cat /proc/mounts
+
+~~~~AUTO ROOT LOGIN (TERMINAL COMMANDS EXCEPT FOR "Note:" & INSIDE "######EDIT######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: uncomment lines; change "AutomaticLogin" to root
+nano /etc/gdm3/daemon.conf
+######EDIT######################
+# Enabling automatic login
+AutomaticLoginEnable = true
+AutomaticLogin = root
+######END EDIT##################
+
+Note: comment line
+nano /etc/pam.d/gdm-autologin
+######EDIT#######################################################
+auth	required	pam_succeed_if.so user != root quiet_success
+######END EDIT###################################################
+
+~~~~NEMO CSS (TERMINAL COMMANDS EXCEPT FOR INSIDE "######EDIT GTK.CSS######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+nano ~/.config/gtk-3.0/gtk.css
+######EDIT GTK.CSS###############################
+/* hide the floating file info at the bottom */
+.nemo-window .floating-bar {
+  color: transparent;
+}
+/* OR custom floating file info at the bottom */
+.nemo-window .floating-bar {
+  background: gray;
+  color: black;
+  border-radius: 1em;
+}
+######END EDIT GTK.CSS###########################
+
+~~~~CLIPBOARD TERMINAL (TERMINAL COMMANDS EXCEPT FOR INSIDE "######EDIT BASH######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+apt -y install xsel
+######EDIT BASH##################################
+FILE=/path/to/file.txt
+if test -f "$FILE"; then
+
+while IFS= read -r line
+do
+
+  #echo "$line"
+  echo "$line" | tr -d '\n' | xsel --clipboard
+
+done < "$FILE"
+
+fi
+######END EDIT BASH##############################
+
+~~~~REDUCE BOOT TIME (TERMINAL COMMANDS EXCEPT FOR "Note:" & INSIDE "######EDIT######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: The standard system shell /bin/sh was once provided by bash. Bash is very slow at startup, because it does quite a lot of things before it starts to process shell statements. During bootup, a lot of shell scripts are executed, and using to a quicker shell has a noticeable impact. To switch /bin/sh to point back to bash, use dpkg-reconfigure.
+dpkg-reconfigure dash
+
+Note: minimize loading of kernel modules
+apt -y install lz4
+nano /etc/initramfs-tools/initramfs.conf
+######EDIT######
+MODULES=dep
+BUSYBOX=n
+COMPRESS=lz4
+COMPRESSLEVEL=5
+######END EDIT######
+update-initramfs -u
+
+Note: disable kernel modules
+nano /etc/modprobe.d/blacklists.conf
+######EDIT#############
+blacklist iTCO_wdt
+blacklist pcspkr
+blacklist joydev
+blacklist mousedev
+blacklist uvcvideo
+blacklist btusb
+blacklist btrtl
+blacklist btbcm
+blacklist btintel
+blacklist btmtk
+blacklist bluetooth
+blacklist ip_tables
+blacklist x_tables
+blacklist lp
+######END EDIT#########
+depmod -a && \
+update-initramfs -u
+
+lsmod | grep iTCO_wdt
+
+Note: change "Type=forking" to "Type=idle" to run "vboxdrv.service" after boot
+nano /etc/systemd/system/multi-user.target.wants/vboxdrv.service
+######EDIT##########
+[Service]
+Type=idle
+######END EDIT######
+
+Note: change "Type=oneshot" to "Type=idle" to run "networking.service" after boot
+nano /etc/systemd/system/network-online.target.wants/networking.service
+######EDIT##########
+[Service]
+Type=idle
+######END EDIT######
+
+Note: change "Type=oneshot" to "Type=idle" to run "apparmor.service" after boot
+nano /etc/systemd/system/sysinit.target.wants/apparmor.service
+######EDIT##########
+[Service]
+Type=idle
+######END EDIT######
+
+Note: change "Type=dbus" to "Type=idle" to run "wpa_supplicant.service" after boot
+nano /etc/systemd/system/multi-user.target.wants/wpa_supplicant.service
+######EDIT##########
+[Service]
+Type=idle
+######END EDIT######
+
+Note: change "Type=dbus" to "Type=idle" to run "udisks2.service" after boot
+nano /etc/systemd/system/graphical.target.wants/udisks2.service
+######EDIT##########
+[Service]
+Type=idle
+######END EDIT######
+
+Note: change "Type=dbus" to "Type=idle" to run "NetworkManager.service" after boot
+nano /etc/systemd/system/multi-user.target.wants/NetworkManager.service
+######EDIT##########
+[Service]
+Type=idle
+######END EDIT######
+
+Note: change "Type=dbus" to "Type=idle" to run "dbus-org.freedesktop.nm-dispatcher.service" after boot
+nano /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service
+######EDIT##########
+[Service]
+Type=idle
+######END EDIT######
+
+Note: comment out in "NetworkManager.service"
+nano /etc/systemd/system/multi-user.target.wants/NetworkManager.service
+######EDIT###############################################################################################################################
+# CAP_DAC_OVERRIDE: required to open /run/openvswitch/db.sock socket.
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_DAC_OVERRIDE CAP_NET_RAW CAP_NET_BIND_SERVICE CAP_SETGID CAP_SETUID CAP_SYS_MODULE CAP_AUDIT_WRITE CAP_KILL CAP_SYS_CHROOT
+
+#[Install]
+WantedBy=multi-user.target
+Also=NetworkManager-dispatcher.service
+
+# We want to enable NetworkManager-wait-online.service whenever this service
+# is enabled. NetworkManager-wait-online.service has
+# WantedBy=network-online.target, so enabling it only has an effect if
+# network-online.target itself is enabled or pulled in by some other unit.
+Also=NetworkManager-wait-online.service
+######END EDIT###########################################################################################################################
+
+Note: reduce amount of logs need to be read on bootup
+nano /etc/systemd/journald.conf
+######EDIT###########
+Storage=volatile
+SystemMaxUse=5M
+SystemMaxFileSize=5M
+######END EDIT#######
+
+journalctl -b
+
+Note: OR no journaling
+nano /etc/systemd/journald.conf
+######EDIT###########
+Storage=none
+######END EDIT#######
+rm -rf /var/log/journal
+
+Note: check services run during bootup
+systemd-analyze blame
+
+Note: check bootup time
+systemd-analyze time
+
+Note: WARNING! "systemd-remount-fs.service" MASKED KILLS "gdm.service" (gnome desktop mnanager that loads the desktop)
+
+Note: SAFE TO DISABLE
+systemctl disable NetworkManager-wait-online.service && \
+systemctl disable ModemManager.service && \
+systemctl disable bluetooth.service && \
+systemctl disable switcheroo-control.service && \
+systemctl disable apt-daily.service && \
+systemctl disable apt-daily.timer && \
+systemctl disable apt-daily-upgrade.timer && \
+systemctl disable apt-daily-upgrade.service && \
+systemctl disable systemd-tmpfiles-clean.timer
+
+Note: if virtualbox has been installed
+systemctl disable vboxweb-service.service && \
+systemctl disable vboxautostart-service.service && \
+systemctl disable vboxballoonctrl-service.service
+
+Note: if exists
+systemctl disable keyboard-setup.service
+
+Note: SAFE TO MASK!
+systemctl disable plymouth-quit-wait.service && \
+systemctl mask plymouth-quit-wait.service && \
+systemctl disable plymouth-read-write.service && \
+systemctl mask plymouth-read-write.service && \
+systemctl disable plymouth-start.service && \
+systemctl mask plymouth-start.service && \
+systemctl disable cups.service && \
+systemctl mask cups.service && \
+systemctl disable geoclue.service && \
+systemctl mask geoclue.service && \
+systemctl disable avahi-daemon.service && \
+systemctl mask avahi-daemon.service && \
+systemctl disable alsa-restore.service && \
+systemctl mask alsa-restore.service && \
+systemctl disable systemd-backlight@backlight:intel_backlight.service && \
+systemctl mask systemd-backlight@backlight:intel_backlight.service && \
+systemctl disable systemd-backlight@leds:platform::kbd_backlight.service && \
+systemctl mask systemd-backlight@leds:platform::kbd_backlight.service && \
+systemctl disable colord.service && \
+systemctl mask colord.service
+systemctl disable e2scrub_reap.service && \
+systemctl mask e2scrub_reap.service
+systemctl disable systemd-hostnamed.service && \
+systemctl mask systemd-hostnamed.service && \
+systemctl disable sys-kernel-debug.mount && \
+systemctl mask sys-kernel-debug.mount && \
+systemctl disable systemd-journal-flush.service && \
+systemctl mask systemd-journal-flush.service && \
+systemctl disable systemd-update-utmp-runlevel.service && \
+systemctl mask systemd-update-utmp-runlevel.service && \
+systemctl disable systemd-update-utmp.service && \
+systemctl mask systemd-update-utmp.service
+systemctl disable realmd.service && \
+systemctl mask realmd.service && \
+systemctl disable systemd-localed.service && \
+systemctl mask systemd-localed.service && \
+systemctl disable dev-hugepages.mount && \
+systemctl mask dev-hugepages.mount && \
+systemctl disable dev-mqueue.mount && \
+systemctl mask dev-mqueue.mount && \
+systemctl disable systemd-binfmt.service && \
+systemctl mask systemd-binfmt.service && \
+systemctl disable systemd-tmpfiles-setup-dev.service && \
+systemctl mask systemd-tmpfiles-setup-dev.service && \
+systemctl disable systemd-tmpfiles-setup.service && \
+systemctl mask systemd-tmpfiles-setup.service && \
+systemctl disable systemd-tmpfiles-clean.service && \
+systemctl mask systemd-tmpfiles-clean.service
+
+Note: kills settings if power is selected; no power icon
+systemctl disable upower.service && \
+systemctl mask upower.service && \
+systemctl disable power-profiles-daemon.service && \
+systemctl mask power-profiles-daemon.service
+
+Note: if exists
+systemctl disable systemd-timesyncd.service && \
+systemctl mask systemd-timesyncd.service
+systemctl disable console-setup.service && \
+systemctl mask console-setup.service
+systemctl disable lm-sensors.service && \
+systemctl mask lm-sensors.service
+
+Note: to re-enable, just unmask it
+systemctl list-unit-files --state=masked
+systemctl unmask upower.service && \
+systemctl unmask power-profiles-daemon.service
+
+~~~~TEXTADEPT 12.2 AS QT (TERMINAL COMMANDS EXCEPT FOR "Note:" & INSIDE "######EDIT######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: gnome extension "unite" issue (hide window titlebars) on textadept as qt does not work in wayland but works in x-org; needs "QT_QPA_PLATFORM=xcb" to work in wayland. gnome extension "smart auto move" does not work if qt app is the only one running; needs gtk app running to work. textadept as qt has tab scroll & shift; gtk does not
+
+Note: debian qt dark theme with control over fonts
+apt -y install qt5ct
+nano /etc/environment.d/90qt-a11y.conf
+######EDIT#################
+QT_ACCESSIBILITY=1
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_QPA_PLATFORM=xcb
+######END EDIT#############
+qt5ct
+
+Note: qt gnome dark theme but no control over fonts
+apt -y install qgnomeplatform-qt5
+nano /etc/environment.d/90qt-a11y.conf
+######EDIT#################
+QT_ACCESSIBILITY=1
+QT_QPA_PLATFORMTHEME=gnome
+QT_QPA_PLATFORM=xcb
+######END EDIT#############
