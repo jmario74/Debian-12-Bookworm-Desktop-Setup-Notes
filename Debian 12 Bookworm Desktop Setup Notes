@@ -246,12 +246,12 @@ nano /etc/gdm3/daemon.conf
 ######ADD TO .CONF#######
 [security]
 AllowRoot=true
-######ADD TO .CONF END###
+######END ADD TO .CONF###
 
 nano /etc/pam.d/gdm-password
 ######COMMENT LINE IN GDM-PASSWORD##########################
 auth required pam_succeed_if.so user != root quiet_success
-######COMMENT LINE IN GDM-PASSWORD END######################
+######END COMMENT LINE IN GDM-PASSWORD######################
 
 ~~~~HIDE NON-ROOT USER IN LOGIN SCREEN (TERMINAL COMMANDS EXCEPT FOR "Note:" & INSIDE "######EDIT######")~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Note: create this file
