@@ -86,12 +86,12 @@ System Performance Mode   [Extreme Performance]
 OS Optimized Defaults	[Enabled]
 
 ~~~~STORAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-internal M.2 SSD PCIE NVME as operating system only
+internal (PCIe NVMe M.2 SSD) as operating system only
 internal SSD DRIVE as additional storage
 
 ~~~~DESKTOP INSTALL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 UPGRADE LAPTOP MEMORY TO MAX CAPACITY FOR BETTER PERFORMANCE
-UPGRADE INSTALL SSD NVME PCIE FOR OPERATING SYSTEM ONLY
+UPGRADE INSTALL (PCIe NVMe M.2 SSD) FOR OPERATING SYSTEM ONLY
 UPGRADE MAIN DRIVE TO SSD FOR EXTRA STORAGE
 
 during install selections: advanced options, expert install, targeted drivers, no host name, no wep key, no network mirror, WEP/Open Network, root login, no automatic updates, just gnome, force grub to efi
