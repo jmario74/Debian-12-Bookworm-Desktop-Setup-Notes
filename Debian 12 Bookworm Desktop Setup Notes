@@ -383,7 +383,7 @@ cp /boot/initrd.img-6.5.8-x64v1-xanmod-500-native-xanmod1 /boot/efi/EFI/stub/ini
 Note: check partition information or use gnome disks to check partition information
 blkid
 
-Note: https://web.archive.org/web/20231030230702/https://forums.stub.net/viewtopic.php?f=17&t=137851&hilit=Bolo, look for "by Head_on_a_Stick"
+Note: https://web.archive.org/web/20231030230702/https://forums.debian.net/viewtopic.php?f=17&t=137851&hilit=Bolo, look for "by Head_on_a_Stick"
 
 Note: without bootup splash, "rw fstab=n" bypass use of "/etc/fstab" & "systemd-remount-fs.service"
 efibootmgr -c -d <EFI partition (TYPE="vfat")> -p 1 -L 'Debian (EFI_STUB)' -l '/EFI/stub/vmlinuz-6.5.8-x64v1-xanmod-500-native-xanmod1' -u 'root=UUID=<root file system uuid (TYPE="ext4")> rw fstab=n fsck.mode=skip quiet loglevel=0 systemd.show_status=false rd.udev.log_level=0 i915.fastboot=1 fbcon=nodefer rd.plymouth=0 plymouth.enable=0 nowatchdog mitigations=off bgrt_disable=0 rootfstype=ext4 rootflags=noatime add_efi_memmap initrd=/EFI/stub/initrd.img'
